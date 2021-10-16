@@ -1,4 +1,5 @@
-ARG base_name=me
+# ARG base_name=me
+ARG base_name=default
 FROM example-nodejs-image-${base_name}
 ARG base_name
 
